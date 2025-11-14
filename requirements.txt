@@ -1,0 +1,11 @@
+langchain>=0.0.320
+langchain-community
+chromadb>=0.3.27
+sentence-transformers>=2.2.2
+transformers>=4.30.0
+torch>=2.0.0
+ollama>=0.0.7
+huggingface-hub>=0.14.1
+ftfy
+regex
+tqdm
