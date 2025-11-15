@@ -21,7 +21,7 @@ def build_vectorstore(recreate: bool = False) -> Chroma:
     if recreate and CHROMA_PERSIST_DIR.exists():
         for file in CHROMA_PERSIST_DIR.iterdir():
             file.unlink()
-        print("Rebuilding Chroma DB...")
+        print("Rebuilding Chroma DB")
     loader = TextLoader(str(SPEECH_PATH), encoding="utf-8")
     docs = loader.load()
 
