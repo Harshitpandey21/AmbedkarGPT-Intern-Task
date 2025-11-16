@@ -37,7 +37,7 @@ AmbedkarGPT-Intern-Task
 
 6. Passes retrieved context into Mistral 7B running locally via Ollama
 
-7. Produces a grounded, context-aware answer
+7. Produces a context-aware answer
 
 # Installation & Setup
 1. Clone the repository
