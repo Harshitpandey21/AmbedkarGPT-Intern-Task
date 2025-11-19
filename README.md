@@ -62,7 +62,7 @@ pip install --upgrade pip
 pip install -r requirements.txt
 ```
 4. Install Ollama and pull Mistral 7B
-Ollama handles the local LLM.
+Ollama handles the local LLM
 ```
 curl -fsSL https://ollama.ai/install.sh | sh
 ```
